@@ -8,8 +8,6 @@
   body {
     margin: 0;
     padding: 0;
-    background-image: url('https://raw.githubusercontent.com/daycardoso/TADS/main/docs/folder.jpg');
-    background-size: cover;
     font-family: Arial, sans-serif;
     color: rgba(255, 255, 255, 0.7);
     display: flex;
@@ -17,6 +15,18 @@
     align-items: flex-start;
     height: 100vh;
     box-sizing: border-box;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://raw.githubusercontent.com/daycardoso/TADS/main/docs/folder.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
   }
 
   .overlay {
@@ -34,6 +44,7 @@
 </style>
 </head>
 <body>
+  <div class="background"></div>
   <div class="overlay">
     <h1>Análise e Desenvolvimento de Sistemas</h1>
     <p>

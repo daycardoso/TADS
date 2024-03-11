@@ -1,0 +1,114 @@
+Tecnologia em Análise e Desenvolvimento de Sistemas
+Lógica de Programação
+Professor Vinícius Fritzen Machado
+Lista de Exercícios 02
+Desenvolva os exercícios abaixo utilizando somente o que foi visto em sala de aula. Novas
+soluções são encorajadas, no entanto, é necessário que os alunos demonstrem domínio
+sobre as técnicas apresentadas em sala de aula.
+1. Faça um algoritmo que converta metros para centímetros. Lembrando que 1m =
+100cm
+2. Escreva um algoritmo para ler as dimensões de um retângulo (base e altura),
+calcular e escrever a área e o perímetro do retângulo.
+3. Ler um valor e escrever se é positivo ou negativo (considere o valor zero como
+positivo).
+4. Escreva um programa que faça a leitura de dois valores inteiros e descubra qual
+deles é o maior, imprimindo na resposta o nome da variável e o seu valor.
+5. Escreva um programa que faça a leitura de dois valores reais e faça a divisão entre
+eles se o denominador não for zero. Ao final deve ser impresso o resultado ou uma
+mensagem de erro.
+6. Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias
+e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365
+dias e mês com 30 dias. Calcular quantos dias a pessoa já viveu até hoje.
+a. Desafio e pesquisa: utilizando a classe Calendar ou Date do Java, peça que
+o usuário informe sua data de nascimento e o sistema irá calcular quantos
+anos, meses e dias a pessoa viveu.
+7. Faça um algoritmo que pergunte quanto a pessoa ganha por hora (salário por hora)
+e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no
+referido mês e qual será seu salário atual. Calcule também o salário líquido
+(desconto de impostos) considerando 15% de impostos e mostre esses valores.
+a. Pergunte ao usuário qual a % de imposto que é descontada do salário.
+8. Escreva um algoritmo para ler o número total de eleitores de um município, o
+número de votos brancos, nulos e válidos. Calcular e escrever o percentual que
+cada um representa em relação ao total de eleitores
+9. Escreva um programa que pergunte o raio de uma circunferência, e sem seguida
+mostre o diâmetro, comprimento e área da circunferência. Considere PI = 3.141692
+10. Faça um programa que receba a idade de um nadador e classifique-o numa das
+seguintes categorias:
+• Adulto (idade >= 18);
+• Juvenil (idade >= 14 e idade < 18);
+• Infantil (idade >=9 e idade < 14);
+• Mirim (Idade < 9).
+11. Faça um programa que receba dois números e efetua a adição. Caso o valor
+somado seja maior que 20, este deverá ser apresentado somando-se a ele 8; caso
+o valor somado seja menor ou igual a 20, este deverá ser apresentado subtraindo-se
+10.
+12. As maçãs custam R$ 1.50 cada se forem compradas menos de uma dúzia, e R$
+1.30 se forem compradas pelo menos 12. Escreva um programa que leia o número
+de maçãs compradas, calcule e escreva o custo total da compra.
+13. Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética
+simples e escrever uma mensagem que diga se o aluno foi ou não aprovado
+(considerar que média igual ou maior que 6.0 o aluno é aprovado). Escrever também
+a média calculada.
+14. Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem
+que diga se ela poderá ou não votar este ano (não é necessário considerar o mês
+em que a pessoa nasceu).
+15. Ler a hora de início e a hora de fim de um jogo de Xadrez (considere apenas horas
+inteiras, sem os minutos) e calcule a duração do jogo em horas, sabendo-se que o
+tempo máximo de duração do jogo é de 24 horas e que o jogo pode iniciar em um
+dia e terminar no dia seguinte
+16. Uma empresa abriu uma linha de crédito para os funcionários. O valor da prestação
+não pode ultrapassar 30% do salário. Faça um programa que receba o salário, o
+valor do empréstimo e o número de prestações e informe se o empréstimo pode ser
+concedido. Nenhum dos valores informados pode ser zero ou negativo.
+17. O custo de um carro novo ao consumidor é a soma do custo de fábrica com a
+porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica).
+Supondo que o percentual do distribuidor seja de 28% e os impostos de 45%,
+escrever um algoritmo para ler o custo de fábrica de um carro, calcular e escrever o
+custo final ao consumidor.
+18. Uma revendedora de carros usados paga a seus funcionários vendedores um salário
+fixo por mês, mais uma comissão também fixa para cada carro vendido e mais 5%do valor das vendas por ele efetuadas. Escrever um algoritmo que leia o número de
+carros por ele vendidos, o valor total de suas vendas, o salário fixo e o valor que ele
+recebe por carro vendido. Calcule e escreva o salário final do vendedor.
+19. Escreva um algoritmo para ler as dimensões de uma cozinha retangular
+(comprimento, largura e altura), calcular e escrever a quantidade de caixas de
+azulejos para se colocar em todas as suas paredes (considere que não será
+descontada a área ocupada por portas e janelas). Cada caixa de azulejos possui 1.5
+m2 .
+20. Um motorista de táxi deseja calcular o rendimento de seu carro na praça.
+Sabendo-se que o preço do combustível é de R$ 4.599, escreva um algoritmo para
+ler: a marcação do odômetro (Km) no início do dia, a marcação (Km) no final do dia,
+o número de litros de combustível gasto e o valor total (R$) recebido dos
+passageiros. Calcular e escrever: a média do consumo em Km/L e o lucro (líquido)
+do dia.
+21. A equipe Red Bull Racing de Fórmula 1 deseja calcular o número mínimo de litros
+que deverá colocar no tanque de seu carro para que ele possa percorrer um
+determinado número de voltas até o primeiro reabastecimento. Escreva um
+algoritmo que leia o comprimento da pista (em metros), o número total de voltas a
+serem percorridas no grande prêmio, o número de reabastecimentos desejados e o
+consumo de combustível do carro (em Km/L). Calcular e escrever o número mínimo
+de litros necessários para percorrer até o primeiro reabastecimento. Observação:
+Considere que o número de voltas entre os reabastecimentos é o mesmo.
+22. Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito.
+Após, calcular e escrever o saldo atual (saldo atual = saldo - débito + crédito).
+Também testar se saldo atual for maior ou igual a zero escrever a mensagem “Saldo
+Positivo”, senão escrever a mensagem “Saldo Negativo”.
+23. Faça um algoritmo para ler: quantidade atual em estoque, quantidade máxima em
+estoque e quantidade mínima em estoque de um produto. Calcular e escrever a
+quantidade média, usando a seguinte fórmula: ((quantidade média = quantidade
+máxima + quantidade mínima)/2). Se a quantidade em estoque for maior ou igual a
+quantidade média escrever a mensagem “Não efetuar compra”, senão escrever a
+mensagem “Efetuar compra”.
+24. Escreva um programa que faça a leitura da idade de 2 homens e 2 mulheres
+(supondo que as idades do mesmo sexo serão diferentes). O programa deve fazer o
+somatório da idade do homem mais velho com a idade da mulher mais nova e o
+produto da idade do homem mais novo pela idade da mulher mais velha. Ao final
+você deve imprimir os resultados, e cada uma das idades digitadas: mulher mais
+nova, mulher mais velha, homem mais novo e homem mais velho.25. Faça um programa que leia o valor de um produto X e leia a quantidade de reais de
+um cofrinho que contenha:
+♦ N moedas de 1 real;
+♦ N moedas de 50 centavos;
+♦ N moedas de 25 centavos;
+♦ N moedas de 10 centavos;
+♦ N moedas de 5 centavos;
+O programa deverá verificar se o total de reais que contém no cofrinho é o bastante
+para a compra o produto X.

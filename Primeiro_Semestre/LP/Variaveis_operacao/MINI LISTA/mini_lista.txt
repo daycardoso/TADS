@@ -1,0 +1,39 @@
+MINI LISTA - Complementar 01
+1. Conversão de Tipos: Peça ao usuário para inserir dois números: um inteiro e
+um decimal (float). Em seguida, converta o número inteiro em um tipo float e
+o número decimal em um tipo inteiro, e imprima ambos.
+​
+2. Cálculo Simples: Solicite ao usuário para inserir dois números. Realize a
+soma, subtração, multiplicação e divisão desses números. Imprima o
+resultado de cada uma dessas operações.
+3. Concatenação de Strings: Peça ao usuário para digitar dois nomes.
+Concatene (junte) esses nomes com um espaço entre eles e imprima o
+resultado.
+4. Operações com Caracteres: Solicite ao usuário para digitar um único
+caractere. Imprima o código ASCII desse caractere e, em seguida, converta o
+caractere para maiúsculo se for uma letra minúscula, ou para minúsculo se
+for uma letra maiúscula. Imprima o resultado.
+5. Distância Entre Dois Pontos: Peça ao usuário para inserir as coordenadas x e
+y de dois pontos. Calcule e imprima a distância entre esses dois pontos. A
+fórmula da distância é sqrt((x2 - x1)^2 + (y2 - y1)^2).
+6. Perímetro de um Retângulo: Solicite ao usuário para inserir o comprimento e
+a largura de um retângulo. Calcule e imprima o perímetro do retângulo.
+7. Comparação de Números: Peça ao usuário para inserir dois números.
+Imprima se o primeiro número é maior, menor ou igual ao segundo.
+​8. Conversão de Temperatura: Solicite ao usuário para inserir uma temperatura
+em Celsius. Converta essa temperatura para Fahrenheit e imprima o
+resultado. A fórmula é (Celsius * 9/5) + 32.
+9. Cálculo da Média: Peça ao usuário para inserir três números. Calcule e
+imprima a média desses números.
+10. Conversão de Velocidade: Peça ao usuário para inserir uma velocidade em
+quilômetros por hora (km/h). Converta essa velocidade para metros por
+segundo (m/s) e imprima o resultado. A fórmula de conversão é
+velocidade_m/s = velocidade_km/h / 3.6.
+11. Conversão de Moedas: Solicite ao usuário para inserir um valor em dólares
+(USD). Em seguida, peça a ele para inserir a taxa de câmbio atual do dólar
+para o real (BRL). Converta e imprima o valor em reais.
+​ Cálculo de Tempo de Viagem: Peça ao usuário para inserir a distância de uma
+viagem em quilômetros e a velocidade média esperada em km/h. Calcule e
+imprima o tempo estimado para a viagem em horas e minutos. A fórmula é
+tempo = distância / velocidade.
+12. Dado um quantidade de tempo em segundos, mostrar o tempo no formato hh:mm:ss
